@@ -11,6 +11,7 @@ html.a-html {
   height: auto;
   overflow: auto;
   position: static;
+	background-color:#000000;
 }
 
 // make the viewer fill the background behind the elements instead of over it
@@ -39,7 +40,7 @@ html.a-html {
 }
 
 body {
-	background-color:#000000;
+background-color:#000000;
   font-size: 16px;
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -49,14 +50,6 @@ body {
   letter-spacing: 0.5px;
   color: #2B3A42;
 }
-.exactCenter {
-      width:500px;
-      height:500px;
-      position: fixed;
-      background-color: #transparent;
-      top: 20%;
-      left: 50%;
-      margin-top: -100px;
-      margin-left: -100px;
 
-}
+
+
