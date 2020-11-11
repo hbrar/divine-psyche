@@ -1,0 +1,46 @@
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
+  <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+
+<body>
+  <!-- Top navigation -->
+  <header>
+
+  </header>
+  <!-- Page sections | Home -->
+  <section class="page-sections home vr-container" id="home">
+    <div class="vr-overlay-content">
+      <h1>Let's explore the virtual world.</h1>
+    <button class="action"onclick="window.location.href = '#about';">Get Started</button>
+    </div>
+    
+    <!-- This is where I want to place the a-frame embed code -->
+    <a-scene class="vr-background" id="aframe-viewer">
+      <a-entity rotation="0 0 0">
+        <a-animation attribute="rotation" dur="150000" easing="linear" fill="forwards" to="0 360 0" repeat="indefinite"></a-animation>
+        <a-sky src="02.jpg"></a-sky>
+      </a-entity>
+    </a-scene>
+  </section>
+  <!-- Page sections | About -->
+
+ 
+</body>
+<!-- Page Footer -->
+<footer>
+  <span class="post">Footer message</span>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#product">Product</a>
+  </nav>
+</footer>
+
+</html>
