@@ -49,6 +49,14 @@ body {
   letter-spacing: 0.5px;
   color: #2B3A42;
 }
-
+.exactCenter {
+      width:500px;
+      height:500px;
+      position: fixed;
+      background-color: #transparent;
+      top: 20%;
+      left: 50%;
+      margin-top: -100px;
+      margin-left: -100px;
 
 </style>
