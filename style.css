@@ -1,8 +1,7 @@
 
-	//
-// -- Styles for the VR Embed
+/* VR EMBED STYLE */
 
-// Without these next 2 rules, a-frame will hide the rest of the page and disable scrolling
+/* Prevents a-frame from hiding rest of page and disable scrolling */
 body.a-body {
   height: auto;
   overflow: auto;
@@ -11,17 +10,16 @@ html.a-html {
   height: auto;
   overflow: auto;
   position: static;
-	background-color:#000000;
+background-color:#000000;
 }
 
-// make the viewer fill the background behind the elements instead of over it
+/* Make vr viewer fill bg behind elements */
 .vr-background {
   overflow: hidden;
 }
 
-// for the html element inside which you are adding the a-frame embed code
 .vr-container {
-  height: 100vh; // I want the embed to be full-height. You can give any value you want here.
+  height: 100vh; 
   .vr-overlay-content {
     position: absolute;
     z-index: 1;
@@ -32,23 +30,28 @@ html.a-html {
     margin: auto;
     width: 100%;
     height: 200px;
-    pointer-events: none; // this is important as it enables your interactions on the overlay to be detected by a-frame
-  }
+    pointer-events: none; /* enables interactions on overlay */
+ 
+}
+	
   .action {
-    pointer-events: initial; // enables click on the button
+    pointer-events: initial; /* enables click */
   }
 }
+
+
+/* GENERAL STYLE */
 
 body {
 background-color:#000000;
   font-size: 16px;
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-weight: 300;
   margin: 0;
   padding: 0;
   line-height: 1.6;
   letter-spacing: 0.5px;
-  color: #2B3A42;
+  color: #ffffff;
 }
 
 header {
