@@ -58,4 +58,17 @@ header {
 background-color: #000000;
 }
 
+<style>
+  }
 
+.h1 {
+  font-size: 70px;
+  color: transparent;
+  text-transform: uppercase;
+  font-size: 100px;
+  text-align: center;
+  letter-spacing: 1px;
+
+   -webkit-text-stroke: 2px yellow;
+  
+  </style>
