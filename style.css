@@ -55,9 +55,12 @@ background-color:#000000;
 }
 
 header {
-background-color: #000000;
+background-color: transparent;
 }
 
+.img {
+	z-index:1;
+}
 header h1 a {
 font-size: 70px;
   color: transparent;
